@@ -1,3 +1,4 @@
 print("Please enter a Celsius temperature.")
-temperature = float(input())
-print("The equivalent Fahrenheit temperature is: ", ((9/5) * temperature + 32))
+celsius = float(input())
+print("The equivalent Fahrenheit temperature is: ")
+print(float((9/5) * celsius + 32))
